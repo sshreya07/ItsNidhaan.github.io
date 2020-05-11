@@ -1,0 +1,54 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.nav-space
+{
+    float: left;
+    margin-right: 0.8cm;
+    margin-bottom: 8px;
+    font-size: 14;
+}
+.nav-btn
+{
+    float: right;
+    font-size: 14;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-right: 11px;
+}
+.left
+{
+    float: left;
+    width: 60%;
+}
+.left h1
+{
+    font-size: 54;
+    font-weight: bolder;
+    margin-top: 4.5cm;
+}
+.right
+{
+    float: left;
+    width:40%;
+}
+.clear
+{
+    clear: both;
+}
+.brands
+{
+    float: left;
+    width: 12.5%;
+    margin-top: 20px;
+    margin-bottom: 2cm;
+}
+.foot
+{
+    width: 20%;
+    float: left;
+    margin-top: 1.5cm;
+    margin-right: 0.5cm;
+}
