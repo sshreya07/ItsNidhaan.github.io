@@ -12,9 +12,10 @@
     <body>
         
         <!-----------------NAVBAR-------------------------->
-        <div class="container-fluid" style="margin-top: 5px;" >
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="margin-left: 5cm; background-color: white;">
-                <a class="navbar-brand" href="#"><img src="icon.png" style="height: 1.5cm; width: 2.5 cm;margin-right: 2.2cm;"></a>
+        <div class="container " style="margin-top: 5px; " >
+            <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-light fixed-top container-fluid" style="background-color: white;"  >
+                <a class="navbar-brand nav-med"; id="navy" href="#"><img src="icon.png" style="height: 1.5cm; width: 2.5 cm;margin-right: 2.2cm;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -43,6 +44,7 @@
                   </div>
                 </div>
               </nav>
+            </div>
         </div>
         
         <!----------------------------------INTRO------------------------------------>
@@ -50,11 +52,11 @@
           <div class="row">
             <div class="left col-sm" >
               <h1><strong>Create Click-Worthy Links</strong></h1>
-              <p style="margin-left: 5px; font-size: 22; color: #80716A;">Build and protect your brand using powerful, recognizable short links.</p>
+              <p class="para">Build and protect your brand using powerful, recognizable short links.</p>
               <div>
                 <button type="button" class="btn btn-lg" style=" background-color:#2A5BD7; color: white; height:12%;">Get Started For Free</button>
               </div>
-              <p style="margin-left: 55px;margin-top: 5px;color:#2A5BD7 ;"><a  href="#" style="text-decoration: none;">Get a Quote</a></p>
+              <p  class="quote"><a  href="#" style="text-decoration: none;">Get a Quote</a></p>
             </div>
             <div class="right col-sm">
               <img src="right_pic.png" style="margin-top: 2cm;">
@@ -65,18 +67,18 @@
         
         
         <!----------------------------------FORM------------------------------------>
-        <div style=" background-color: #0B1736; height: 3.5cm; margin-top: 3cm;">
+        <div class="fm-st">
 
           <div class="container">
           
             <div class="row" >
 
               <div class="col-md-8">
-                <input class="form-control form-control-lg" style="width: 110%;margin-top: 30px; height: 1.5cm;" type="text" placeholder="Shorten your link" >
+                <input class="form-control form-control-lg link-form"  type="text" placeholder="Shorten your link" >
               </div>
 
               <div class="col-md-4">
-                <button type="button" class="btn btn-lg" style=" background-color:#2A5BD7; color: white; height:1.5cm; float: right;top: 0; margin-top: 30px; background-color: #1B3987;width: 7cm;">Shorten</button>
+                <button type="button" class="btn btn-lg" id="btnn" >Shorten</button>
               </div>
 
             </div>
@@ -135,30 +137,32 @@
         <!--------------------------BRANDS----------------------------->
         <div class="container">
           <h2 style="text-align: center; font-weight: bolder;margin-top: 3cm;">The most recognized brands in the world love Bitly</h1>
-          <div class="brands" >
-            <img src="1.png">
-          </div>
-          <div class="brands">
-            <img src="2.png">
-          </div>
-          <div class="brands">
-            <img src="3.png">
-          </div>
-          <div class="brands">
-            <img src="4.png">
-          </div>
-          <div class="brands">
-            <img src="5.png">
-          </div>
-          <div class="brands">
-            <img src="6.png">
-          </div>
-          <div class="brands">
-            <img src="7.png">
-          </div>
-          <div class="brands">
-            <img src="8.png">
-          </div>
+          <section id="brands">
+            <div class="brands" style="margin-left: 1cm;" >
+              <img src="1.png">
+            </div>
+            <div class="brands">
+              <img src="2.png" id="spa">
+            </div>
+            <div class="brands">
+              <img src="3.png" id="tre">
+            </div>
+            <div class="brands">
+              <img src="4.png" id="spa">
+            </div>
+            <div class="brands">
+              <img src="5.png" id="tre">
+            </div>
+            <div class="brands">
+              <img src="6.png" id="spa">
+            </div>
+            <div class="brands">
+              <img src="7.png" id="tre">
+            </div>
+            <div class="brands">
+              <img src="8.png" id="spa">
+            </div>
+          </section>
         </div>
         <div class="clear"></div>
 
@@ -167,14 +171,14 @@
         <div class="fluid-container" style=" background-color: #0B1736; height: 7.5cm;">
           <h1 style="text-align: center; font-weight: bolder;top:2cm;position: relative; color: white;">Take your links to a new level</h1>
           <div style="text-align: center; margin-top: 3cm;">
-            <button type="button" class="btn btn-lg" style=" background-color:#2A5BD7; color: white; height:1.5cm;top: 5px;">Get Started For Free</button>
+            <button type="button" class="btn btn-lg" id="btx" >Get Started For Free</button>
           </div>
         </div>
         <div class="clear"></div>
 
         <!------------------------------FOOTER-------------------------------->
         
-        <div class="container">
+        <div class="container" style="margin-bottom: 20px;">
           <div class="foot">
             <p><strong>Why Bitly</strong></p>
             Bitly 101<br>
@@ -218,18 +222,19 @@
             Reviews<br>
 
           </div>
-
-          <div>
-            <p><img src="icon.png" style="height: 1.2cm; width: 1.5 cm;margin-left: 4.3cm;margin-top: -5cm;"></p>
-            <p style="margin-left: 6.5cm;margin-top: -5.1cm;font-size: small;float: right;position: relative;">&copy 2020 Bitly Handmade in NYC, San<br> Francisco, Denver, and all over the<br> world.</p>
-            <div style="float: right;margin-top: -3.5cm;margin-left: -4cm;">
+        </div>
+          
+          <div class="logo">
+            <img src="icon.png" id="logo">
+            <p >&copy 2020 Bitly Handmade in NYC, San<br> Francisco, Denver, and all over the<br> world.</p>
+            <div class="bot-img">
               <a type="image" href="#"><img src="tweet.png" alt="twitter"></a>
               <a type="image" href="#"><img src="insta.png" alt="insta"></a>
               <a type="image" href="#"><img src="linkin.png" alt="linkin"></a>
               <a type="image" href="#"><img src="fb.png" alt="fb"></a>
             </div>
           </div>
-        </div>
+        
 
 
 
