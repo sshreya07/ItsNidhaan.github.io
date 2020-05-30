@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&di splay=swap" rel="stylesheet"> 
+    <title>Superhero</title>
+</head>
+<body>
+    
+
+    <!----------------------------------------------TOPBAR---------------------------------------------------->
+    <div style="width: 100%;">
+        <div class="topbar navbar-fixed"  >
+            <h1 class="text-center" id="newhead"><u>WELCOME SOILDERS</u></h1>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+        <!----------------------------------------------SIDEBAR---------------------------------------------------->
+    <div class="grid-container">
+        <div class="sidebar col-sm-5 col-md-5">
+                    
+                    <div class="lines">
+                        <div ><a href="#"><img src="iron1.png" alt="iron-man" class="img1"></a></div>
+                        <div ><p class="text-capitalize size" >heros are made from the path they choose not by the powers they are graced with.</p></div>
+                    </div>
+
+                    <div class="lines">
+                        <div><a href="#"><img src="thanos1.png" alt="thanos" class="img2"></a></div>
+                        <div><p class="text-capitalize size">the hardest choices requires the strongest will.</p></div>
+                    </div>
+                    
+                    <div class="lines">
+                        <div><a href="#"><img src="bat1.png" alt="batman"  class="img3"></a></div>
+                        <div><p class="text-capitalize size" >our greatest glory is not in never falling, but in rising everytime we fall.</p></div>
+                    </div>
+                    
+                    <div class="lines">
+                        <div><a href="#"><img src="joker1.png" alt="joker" class="img4"></a></div>
+                        <div><p class="text-capitalize size">i talk, i smile, i laugh but be careful when I'm silent.</p></div>
+                    </div>
+        </div>
+      
+        <!-- ---------------------------------------------MAINBAR---------------------------------------------- -->
+        
+        <div class="mainbar col-sm-7 col-md-7" >
+            <div class="focus">
+                <h1 class="text-capitalize text-center" id="head1">only one  can sit at the top, find who..<br>we let you compare your best vs best</h1>
+                <form id="form">
+                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_SENZv4.json" id="anim" background="transparent"  speed="1"   loop  autoplay></lottie-player>
+                    <div class="submit">
+                        <label id="label">Your Name:</label>
+                        <input id="myName" type="text" placeholder="Name">
+                    
+                    <p class="text-capitalize text-light" id="favUniv">favourite universe:
+                        <select style="margin: 1em 0 0 3em; " id="favSelect">
+                            <option>DC Verse</option>
+                            <option>Marvel Cinematic Universe</option>
+                            <option>All Are Cool Man</option>
+                        </select>
+                    </p>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="inquiry">
+                <h1 class="text-center text-light" id="final-head">Let`s Begin the Search!!</h1>
+                <div class="card-group" id="combo"> 
+
+                    <div id="warrior1">
+                      <img src="" class="card-img-top" id="img1" alt="">
+                      <div class="card-body" id="cd1">
+                        <h5 class="card-title text-warning" id="hname1"><u><b>Warrior-1</b></u></h5>
+                        <p class="card-text"><input type="number text" placeholder="search/name or Character-id" id="search1"></p>
+                        <button class="btn btn-warning" id="button1">Search</button>
+                        <div class="info1 border" >
+                            <ul>
+                                <li class="text-light" id="name1">Name:</li>
+                                <li class="text-light" id="intel1">Intelligence:</li>
+                                <li class="text-light" id="strength1">Strength:</li>
+                                <li class="text-light" id="speed1">Speed:</li>
+                                <li class="text-light" id="durability1">Durability:</li>
+                                <li class="text-light" id="pow1">Power:</li>
+                                <li class="text-light" id="comb1">Combat:</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div id="warrior2" >
+                      <img src="" class="card-img-top" id="img2" alt="">
+                      <div class="card-body" id="cd2">
+                        <h5 class="card-title text-warning" id="hname2"><u><b>Warrior-2</b></u></h5>
+                        <p class="card-text"><input type="number text" placeholder="search/name or Character-id" id="search2"></p>
+                        <button class="btn btn-warning" id="button2">Search</button>
+                        <div class="info2 border">
+                            <ul>
+                                <li class="text-light" id="name2">Name:</li>
+                                <li class="text-light" id="intel2">Intelligence:</li>
+                                <li class="text-light" id="strength2">Strength:</li>
+                                <li class="text-light" id="speed2">Speed:</li>
+                                <li class="text-light" id="durability2">Durability:</li>
+                                <li class="text-light" id="pow2">Power:</li>
+                                <li class="text-light" id="comb2">Combat:</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+ 
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

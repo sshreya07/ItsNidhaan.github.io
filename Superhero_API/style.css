@@ -1,0 +1,312 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    padding: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: none;
+    margin-right: none;
+    background:url("w1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.clear
+{
+    clear: both;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.topbar
+{
+    height: 5em;
+    width: 100%;
+    float: center;
+    
+}
+.icon
+{
+    height: 100%; float: left;
+}
+#newhead
+{
+    margin-right: 2em;margin-top: 8px;margin-bottom: 8px;
+    color: #6d838a;                     
+    text-align: center;      
+    font-size: 5em;
+    letter-spacing: 6px;
+    font-family: 'Cinzel', serif;
+}
+.sidebar
+{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;    
+}
+.lines
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    display: flex;
+    margin-top: 3em;
+    color: white;
+    font-weight: bold;
+}
+.lines p
+{
+    margin-top: 2.5em;
+}
+.img1
+{
+    width: 10em;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+.img2
+{
+    width: 12em;
+    margin-right: 2px;
+}
+.img3
+{
+    width: 13em;
+    margin-right: 2px;
+}
+.img4
+{
+    width: 12em;
+    margin-right: 2px;  
+}
+#head1
+{
+    color: #FFB80B;
+}
+.mainbar
+{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    margin-top: 2em;
+}
+#anim
+{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#label
+{
+    float: left;
+    margin: 5em 0 0 5em;
+    color: whitesmoke
+}
+#myName
+{
+    margin: 5em 0 0 2.3em;
+}
+.focus
+{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 8px;
+}
+.focus h1
+{
+    font-family: 'Cinzel', serif;
+}
+#form
+{
+    margin-left: 10px;
+}
+.inquiry
+{
+    margin-top: 10em;
+}
+/* #favSelect
+{
+    margin: 1em 0 0 0 1em; 
+} */
+#warrior1
+{
+    margin-right: 50px;
+    margin-left:15em;
+    float: left;
+}
+#warrior2
+{
+    margin-left: 5em;
+}
+#combo
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.info1 
+{
+    margin-top: 10px;
+    width: 120%;
+    
+}
+.info2
+{
+    margin-top: 10px;
+    width: 60%;
+}
+/* CARD IMAGES */
+#img1
+{
+    height: 100%;
+    width: 100%;
+    border: 5px solid darkred;
+}
+#img2
+{
+    height: 40%;
+    width: 55%;
+    border: 5px solid darkred;
+
+}
+
+/* MOBILE PHONES */
+
+
+@media(max-width:768px)
+{
+    #newhead
+    {
+        font-size: 2em;
+        font-weight: bolder;
+        margin-left: 1cm;
+    }
+    .sidebar
+    {
+        display: grid;
+        grid-template-rows: 25% 25% 25% 25%;    
+    }
+    .mainbar
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .lines
+    {
+        display: grid flex;
+        grid-template-rows: 60% 40%;
+        flex-direction: column;
+        margin-top: 1em;
+        color: white;
+        font-weight: bold;
+        
+    }
+    .focus
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .inquiry
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .lines p
+    {
+        margin-top: 0.5em;
+        font-size: small;
+    }
+    .size
+    {
+        font-size: small;
+    }
+    .img1
+    {
+        width: 5em;
+        margin-right: 2px;
+        margin-left: 5px;
+    }
+    .img2
+    {
+        width: 6em;
+        margin-right: 2px;
+    }
+    .img3
+    {
+        width: 6em;
+        margin-right: 2px;
+    }
+    .img4
+    {
+        width: 6em;
+        margin-right: 2px;  
+    }
+    #anim
+    {
+        width: 200px;
+        height: 200px;   
+        position: absolute;     
+        margin-top: 5em;
+        float: left;
+    }
+    #label
+    {
+        float: left;
+        margin: 5em 0 1em 0em;
+        color: whitesmoke
+    }
+    #myName
+    {
+        margin: 0em 0 0 2.3em;
+    }
+    #favUniv
+    {
+        margin-top: 2em;
+        margin-left: 0em;
+    }
+    .submit
+    {
+        position: relative;
+        float: left;
+        margin-top: 19em ;
+    }
+    #final-head
+    {
+        font-size: x-large;
+    }
+    #warrior1
+    {
+        margin-top: 5em;
+        margin-left:0;
+        display: grid;
+        grid-template-columns: 100%;
+        
+    }
+    #warrior2
+    {
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: 100%
+    }
+    .info2
+    {
+        width:82%;
+    }
+    #combo
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    } 
+     
+    #img1
+    {
+        width: 100%;
+        height: 100%;
+    } 
+    #img2
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
