@@ -1,0 +1,151 @@
+body
+{
+    padding: none;
+    margin: none;
+    background-image: url(bg-main.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo
+{
+    width: 10%;
+    position: fixed;
+}
+.clear
+{
+    clear: both;
+}
+.mainHead
+{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20%;
+    color:#F6C700;
+}
+.btn
+{
+    border: 2px solid #f8fc03;
+    color: white;
+    width: 20%;
+    letter-spacing: 5px;
+}
+.btn:hover
+{
+    background-color: #fc5e03;
+}
+#search
+{
+    width: 50%;
+    height: 1.3cm;
+    margin-right: 2.5em;
+    font-size: x-large;
+    border: 2px solid #f8fc03;
+    border-radius: 3px;
+    padding: 10px;
+}
+.query
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info1 .info2 .info3
+{
+    justify-content: center;
+}
+.info3
+{
+    margin-top: -2em;
+}
+p
+{
+    color: white;
+}
+#output
+{
+    display: grid;
+    grid-template-columns: 20% 20% 50%;
+    grid-gap: 5%;
+    justify-items: stretch;
+    margin: 5em 0 0 2em;
+}                   
+@media(max-width:768px)
+{
+    #output
+    {
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+    .logo
+    {
+        position: relative;
+    }
+    #uImg
+    {
+        width: 80%;
+        justify-content: center;
+        margin-left: 1em;
+    }
+    .mainHead
+    {
+        font-size: 300%;
+        justify-content: center;
+    }
+    .query
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #search
+    {
+        width: 100%;
+        margin-bottom: 1em;
+        padding: 10px;
+    }
+    #btn1
+    {
+        width: 100%;
+    }
+    #chart
+    {
+       display: grid;
+       margin-left: -1em;
+       width: fit-content;
+       grid-template-columns: 100%;
+       float: left;
+    }
+}
+@media(max-width:768px)
+{
+    .mainHead
+    {
+        font-size: 300%;
+        justify-content: center;
+    }
+    .query
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #search
+    {
+        width: 100%;
+        margin-bottom: 1em;
+        padding: 10px;
+    }
+    #btn1
+    {
+        width: 100%;
+    }
+}

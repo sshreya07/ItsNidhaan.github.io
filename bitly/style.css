@@ -1,0 +1,236 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.nav-med
+{
+    
+    background-color: white;
+}
+.nav-space
+{
+    float: left;
+    margin-right: 0.8cm;
+    margin-bottom: 8px;
+    font-size: 14;
+}
+.nav-btn
+{
+    float: right;
+    font-size: 14;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-right: 11px;
+}
+.left
+{
+    float: left;
+    width: 60%;
+}
+.left h1
+{
+    font-size: 43;
+    font-weight: bolder;
+    margin-top: 4.5cm;
+}
+.right
+{
+    float: right;
+    width:40%;
+}
+.para
+{
+    margin-left: 5px;
+    font-size: 22;
+    color: #80716A;
+}
+.quote
+{
+    margin-left: 55px;
+    margin-top: 5px;
+    color:#2A5BD7 ;
+}
+.clear
+{
+    clear: both;
+}
+.link-form
+{
+    width: 110%;
+    margin-top: 30px; 
+    height: 1.5cm;
+}
+#navy
+{
+    margin-left: 6.2cm;
+}
+
+.brands
+{
+    float: left;
+    flex-basis: 12.5%;
+    margin-top: 20px;
+    margin-bottom: 2cm;
+    margin-left: 1em;
+    
+}
+#btnn
+{
+    background-color:#2A5BD7;
+    color: white;
+    height:1.5cm;
+    float: right;
+    top: 0; margin-top: 30px;
+    background-color: #1B3987;
+    width: 7cm;
+}
+.fm-st
+{
+    background-color: #0B1736;
+    height: 3.5cm; 
+    margin-top: 3cm;
+}
+#btx
+{
+    background-color:#2A5BD7;
+    color: white;
+    height:1.5cm;
+    top: 5px;
+    border-radius: 10px;
+}
+.foot
+{
+    width: 20%;
+    float: left;
+    margin-top: 1.5cm;
+    margin-right: 0.5cm;
+}
+#logo
+{
+    height: 1.2cm;
+    width: 1.5 cm;
+    margin-left: 4.3cm;
+    margin-top: -5cm;
+}
+.logo
+{
+    margin: 0.5cm 4cm 0cm 0.5cm;
+}
+.logo p
+{
+    margin-right: 2.6cm;
+    margin-top: -3.8cm;
+    margin-bottom: none;
+    font-size: small;
+    float: right;
+}
+.bot-img
+{
+    float: right;
+    position: relative;
+    top: -2cm;
+    margin-right: 4.4cm;
+}
+
+@media (max-width: 768px)
+{
+    .left h1 
+    {
+        font-size: 34;
+        text-align: left;
+        font-weight: 600;
+    }
+    #navy
+    {
+        margin-left: 0;
+    }
+    .para
+    {
+        font-size: 20;
+    }
+    .btn
+    {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .quote
+    {
+        margin-left: -15px;
+        text-align: center;
+    }
+    .right img
+    {
+        height: 90%;
+        width: 90%;
+    }
+    .link-form
+    {
+        margin-top:35px;
+        height: 1cm;
+        width: 90%;
+    }
+    #btnn
+    {
+        margin-top: 7px;
+        margin-left: 0;
+        width: 100%;
+        height: 1.2cm;
+    }
+    .fm-st
+    {
+        height: 6cm;
+    }
+    .fluid-container h1
+    {
+        font-size: xx-large;
+        margin-top: 0.8cm;
+    }
+    #btx
+    {
+        margin-top:0px;
+        width: 50%;
+        height: 1.3cm;
+    }
+    .foot
+    {
+        width: 100%;
+    }
+   .logo
+    {
+        top: 6cm;
+        float: left;
+        margin-left: 0cm;
+        position: relative
+    }
+    #logo
+    {
+        margin-left: 1em;
+
+    }
+    .logo p
+    {
+        margin-left: 1em;
+    }
+    .bot-img
+    {
+        top:-1.3em;
+        width: 100%;
+        margin-left: 1em;
+        float: left;
+    }
+    #brands
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+   #tre
+   {
+       margin-left: 1em;
+   }
+   #spa
+   {
+       margin-left: 2em;
+   }
+}
