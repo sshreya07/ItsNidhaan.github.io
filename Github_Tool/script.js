@@ -14,13 +14,17 @@
      console.log(user);
 
      fetch(`https://api.github.com/users/${user}`)
-        .then(function (response) {
+      .then(function (response) {
+        if(!response.ok)
+        {
+          throw Error(response.status.Text);
+        }
           return response.json();
         })
         .then(function (user) {
           console.log(user.name);
           
-          if(`${user.name}`==='null')
+          if(`${user.name}`==='null'||`${user.name}`==='undefined')
           {
             alert("Enter a valid User-Id");                        //NULL CHECK            
           } 
